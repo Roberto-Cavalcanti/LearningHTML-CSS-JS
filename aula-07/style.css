@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    padding: 15px 45px;
+    align-items: center;
+}
+
+.container-logo{
+display: flex;
+align-items: center;
+}
+
+#logo-confeitaria{
+height: 60px;
+margin-right: 10px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.botao-loguin{
+    height: 50%;
+}
