@@ -82,7 +82,7 @@ if (idade >= 18 && ensinoMedioCompleto && !segundaMatricula){
     console.log("se fudeu");
 }  */
 // Ex: 06
-
+/* 
 let soma = 0;
 let valorInformadoDoUsuario = prompt("Informe um valor.");
 
@@ -91,4 +91,20 @@ while(valorInformadoDoUsuario !== '0'){
     valorInformadoDoUsuario = prompt("Iforme um valor. Digite 0 para finalizar.");
 }
 
-console.log(soma);
+console.log(soma); */
+
+// Ex: 07
+
+const array = [11, 15, 18, 14, 12, 13];
+
+// const maiorNumero = -infinity;
+
+const maiorNumero = array[0];
+
+for (let i = 1; i < array.length; i++){
+    if( array[i] > maiorNumero){
+        maiorNumero = array[i];
+    }
+}
+
+console.log(maiorNumero);
