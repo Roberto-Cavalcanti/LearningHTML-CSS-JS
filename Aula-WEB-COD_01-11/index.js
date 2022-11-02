@@ -72,7 +72,7 @@ switch (pokemonUsuario.toLocaleLowerCase()){
 
 // Ex: 5
 
-const idade = 15;
+/* const idade = 15;
 const ensinoMedioCompleto = true;
 const segundaMatricula = false;
 
@@ -80,4 +80,15 @@ if (idade >= 18 && ensinoMedioCompleto && !segundaMatricula){
     console.log("voce está apto a se matricular");
 }else {
     console.log("se fudeu");
-} 
+}  */
+// Ex: 06
+
+let soma = 0;
+let valorInformadoDoUsuario = prompt("Informe um valor.");
+
+while(valorInformadoDoUsuario !== '0'){
+    soma = soma + Number (valorInformadoDoUsuario);
+    valorInformadoDoUsuario = prompt("Iforme um valor. Digite 0 para finalizar.");
+}
+
+console.log(soma);
